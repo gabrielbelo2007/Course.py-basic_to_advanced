@@ -1,11 +1,11 @@
-'''
+"""
 Tipos de Dados (Primitivos):
 str - string = textos 'Assim' "Assim"
 int - número inteiro = 123 -456
 float - número real/ponto flutuante -10.50 12.60 0.8 (números decimais)
 bool - valor booleano/lógico = True/False   10==10 (true) geralmente comparações
 se houver qualquer valor sem comparação no 'bool' é avaliado como 'true'
-'''
+"""
 
 print('Gabriel', type('Gabriel'))
 print(10, type(10))

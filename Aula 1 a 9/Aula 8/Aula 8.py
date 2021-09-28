@@ -1,5 +1,5 @@
 """
-Entrada de Dados - Aula 3
+Entrada de Dados - Aula 3 - Strings
 """
 
 
