@@ -1,1 +1,1 @@
-[Built-in Types - Site Explicando](https://docs.python.org/3/library/stdtypes.html/CONTRIBUTING.md)
+[Built-in Types - Site Explicando](https://docs.python.org/3/library/stdtypes.html)
