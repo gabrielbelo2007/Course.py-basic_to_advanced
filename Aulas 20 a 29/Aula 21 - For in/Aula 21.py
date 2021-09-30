@@ -20,16 +20,17 @@ for letra in texto:
 
 print(nova_string)
 
+
 for n, letra in enumerate(texto):  # enumerate mostra o indice das letras do texto
     print(n, letra)
 
-for n in range(3, 10, 2):  # 3 = 'start', 2 = 'step' (como sera feito a contagem)
+for n in range(3, 10, 2):  # O número do stop não aparece na leitura
     print(n)
 
 for n1 in range(10):  # o 'stop' e 'step' nesse caso estão omitidos ficando PADRÃO
     print(n1)
 
-for n2 in range(20, 10, -1):
+for n2 in range(20, 10, -1):  # 20 = 'start', -1 = 'step' (como sera feito a contagem)
     print(n2)
 
 for n3 in range(100):
