@@ -10,14 +10,15 @@ for valor in variavel:
         # essa função analisa o primeira caractere de um valor
         break
     print(valor)
-    # Lembrando que o python diferencia letra maiúscula de minuscula, por isso a função
-    # De deixar a letra minuscula, que poderia ser a de deixar maiscula
+    
+# Lembrando que o python diferencia letra maiúscula de minuscula, a função lower
+# Pode se utilizar a função inversa 'upper' alterando a letra a ser analisada
 
-else:  # Pode se usar Else com o comando For
+else:  # É executado quando o laço 'for' termina 
     print('Não existe uma palavra que começa com J.')
 """
 
-variavel1 = ['Pedro', 'Henrique', 'aJoãozinho']
+variavel1 = ['Pedro', 'Henrique', 'Joãozinho']
 
 for valor1 in variavel1:
     if valor1.upper().startswith('J'):

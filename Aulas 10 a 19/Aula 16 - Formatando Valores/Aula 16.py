@@ -48,6 +48,6 @@ print(nome_formatado)
 
 print(nome_1.lower())  # Tudo minusculo
 print(nome_1.upper())  # Tudo maiusculo
-print(nome_1, sobrenome.title())  # Primeiras letras maisculas
+print(nome_1, sobrenome.title())  # Primeiras letras de cada string maisculas
 
 
