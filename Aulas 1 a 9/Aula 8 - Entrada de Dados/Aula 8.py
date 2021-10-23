@@ -16,7 +16,9 @@ print()
 
 # 3 formas diferentes formas de alterar o type
 numero_1 = int(input('Digite um número: '))  # 1 forma
+
 numero_2 = input('Digite um número: ')
 numero_2 = int(numero_2)  # 2 forma (melhor forma)
+
 print('resultado: ', int(numero_1) + int(numero_2))  # 3 forma
 print('resultado: ', int(numero_1) ** int(numero_2))
