@@ -6,7 +6,7 @@ tamanho_frase = len(frase)
 nova_string = ''
 contador = 0
 
-letra_maiscula = input('Qual letra deseja colocar maiscula:')
+letra_maiscula = input('Qual letra deseja colocar maiscula: ')
 
 # Iteração / Iterar (ato de percorrer cada elemento da sua str, ou do elemento iteravel)
 
