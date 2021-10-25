@@ -69,8 +69,11 @@ lista_5 = string_5.split(' ')
 for indice, valor3 in enumerate(lista_5):
     print(indice, valor3, lista_5[indice])
 
-# O enumerate mostra os valores de uma lista junto com o seu indice
-# lista_5[indice] == a variavel indice do enumerate junto com a variavel valor3 do for
+# O enumerate mostra os valores de uma lista 'enumerando' eles em ordem de leitura
+# Pode selecionar inclusive a partir de qual número ele vai começar a enumerar: 
+# lista_5, 54 - Os próximos valores vão ser em ordem crescente a partir de 54
+# lista_5[indice] == a variavel do enumerate(padrão) junto com a variavel valor3 do for
+(não necessariamente o enumerate vai mostrar o indice dos valores)
 
 # Sem usar Enumerate:
 

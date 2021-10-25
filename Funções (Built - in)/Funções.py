@@ -8,7 +8,7 @@ Por exemplo os espaços, então a cada espaço vai se formar um valor da lista
 
 ''.join() - Juntar uma lista em # str
 
-Se escreve uma string depois adiciona a função e coloca a lista nos parentes
+Se escreve uma string depois adiciona a função e coloca a lista escolhida nos parentes
 O join vai juntar os elementos da lista em uma string, com o valor da str inicial
 
 .strip() - Remove espaços do inicio e do fim da str

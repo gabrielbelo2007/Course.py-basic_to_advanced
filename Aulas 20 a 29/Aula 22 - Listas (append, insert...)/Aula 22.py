@@ -22,6 +22,20 @@ string = 'ABacanaCDE'
 print(string[1])
 print(l1[5])
 print(l1[1:4])  # O número que determina a parada do fatiamento não conta
+
+
+# Dentro de uma lista pode ter outras listas:
+
+listas = [
+
+[0,1,2]  #0 - Dentro da 'listas' o indice vai determinar qual das listas 'filhas' vai ser usada
+[3,4,5]  #1
+#0 1 2 - Dentro de cada lista 'filha' o indice determina qual valor vai ser usado
+[6,7,8]  #2
+]
+
+print(listas[2][2]) - Os indices vão progredindo dessa forma para cada lista dentro de outra
+
 """
 
 """
