@@ -17,4 +17,4 @@ print('Altura:', altura)
 print('Maior de Idade:', e_maior)
 print('Idade * Altura:', idade * altura)
 
-print( nome, 'tem', idade, 'anos de idade e seu imc é', imc)
+print(nome, 'tem', idade, 'anos de idade e seu imc é', imc)

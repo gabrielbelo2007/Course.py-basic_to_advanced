@@ -25,5 +25,5 @@ while contador < 9:
 Maneira usada pelo professor:
 
 for p, r in enumerate(range(10, 1, -1)):
-    print(ind, r)
+    print(p, r)
 '''
