@@ -18,14 +18,13 @@ for valor in novo_cpf:
     contador = 8
     total += valor_temp
 
-else:
-    validar = 11 - (total % 11)
-    if validar > 9:
-        validar = 0
-        novo_cpf += str(validar)
+validar = 11 - (total % 11)
+if validar > 9:
+    validar = 0
+    novo_cpf += str(validar)
 
-    else:
-        novo_cpf += str(validar)
+else:
+    novo_cpf += str(validar)
 
 total = 0
 numerador = 11
@@ -40,13 +39,12 @@ for valor in novo_cpf:
     contador = 8
     total += valor_temp
 
-else:
-    validar = 11 - (total % 11)
-    if validar > 9:
-        validar = 0
-        novo_cpf += str(validar)
+validar = 11 - (total % 11)
+if validar > 9:
+    validar = 0
+    novo_cpf += str(validar)
 
-    else:
-        novo_cpf += str(validar)
+else:
+    novo_cpf += str(validar)
 
 print(novo_cpf)
