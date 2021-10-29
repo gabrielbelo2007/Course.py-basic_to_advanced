@@ -1,6 +1,7 @@
+from random import randint
+cpf = str(randint(100000000, 999999999))
 
-cpf = input('Qual é o seu CPF: ')
-novo_cpf = cpf[:-2]
+novo_cpf = cpf
 
 contador = 8
 numerador = 10
@@ -48,11 +49,4 @@ else:
     else:
         novo_cpf += str(validar)
 
-sequencia = novo_cpf == str(novo_cpf[0]) * len(cpf)
-
-if novo_cpf == cpf and not sequencia:
-    print('O seu CPF é valido!')
-    print(novo_cpf)
-else:
-    print('O seu CPF é invalido!')
-    print(novo_cpf)
+print(novo_cpf)
