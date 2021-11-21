@@ -32,6 +32,17 @@ while True:
         else:
             secreto_temporario += '*'
 
+    if chances >= 0:
+        tent_palavra = input('Gostaria de tentar a palavra : ')
+        if tent_palavra == secreto:
+            print(f'Que legal, você ganhou! A palavra era "{tent_palavra}".')
+            break
+        elif tent_palavra == 'n':
+            print(f'Você tem {chances} chance(s).')
+            print()
+        else:
+            chances = 0
+
     if secreto_temporario == secreto:
         print(f'Que legal, você ganhou! A palavra era "{secreto_temporario}".')
         break
@@ -42,5 +53,3 @@ while True:
     if letra not in secreto:
         chances -= 1
 
-    print(f'Você tem {chances} chance(s).')
-    print()
