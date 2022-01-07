@@ -1,5 +1,5 @@
 """
-Funções - def em Python
+Funções: def
 
 def = Voce define uma função, escolhendo o seu nome e sua ação (sem limites de códigos)
 
@@ -8,6 +8,8 @@ em cada execução da função.
 
 Os valores das variaveis podem ser colocado na definição da função, sendo assim quando
 ocorrer a execução, sem nada entre os parenteses, serão esses valores que vão aparecer.
+
+OBS: Sem utilização dos parenteses em uma função, ela não é executada.
 """
 
 
@@ -23,3 +25,16 @@ saudacao()
 saudacao(nome='zezinho', msg='Bom dia')
 saudacao('Oi', 'Lucas')
 saudacao('Olá', input('Qual seu nome? '))
+
+"""
+def funcao(var):
+    print(var)
+
+variavel = funcao('Valor que eu quiser')
+print(variavel)  # O valor retornado é "none" que representa um "não valor", false em bool.
+
+if variavel:
+    print(variavel)
+else:
+    print('A variavel não possui valor')
+"""
