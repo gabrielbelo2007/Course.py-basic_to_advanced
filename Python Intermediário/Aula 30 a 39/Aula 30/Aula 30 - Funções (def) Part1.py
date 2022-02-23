@@ -6,10 +6,10 @@ def = Voce define uma função, escolhendo o seu nome e sua ação (sem limites 
 Entre os parenteses pode ser colocado uma variavel, e seu valor pode ser alterado
 em cada execução da função.
 
-Os valores das variaveis podem ser colocado na definição da função, sendo assim quando
+Os valores das variaveis podem ser colocado na definição da função, assim quando
 ocorrer a execução, sem nada entre os parenteses, serão esses valores que vão aparecer.
 
-OBS: Sem utilização dos parenteses em uma função, ela não é executada.
+OBS: sem utilização dos parenteses em uma função, ela não é executada.
 """
 
 
@@ -37,4 +37,12 @@ if variavel:
     print(variavel)
 else:
     print('A variavel não possui valor')
+"""
+
+"""
+def func(a1, a2, a3, a4, a5, nome=None, a6=None):
+    print(a1, a2, a3, a4, a5, nome, a6)
+
+# A partir de um argumento com um valor determinado, todos que vierem depois dele precisam ter 
+# seu valor determinado
 """

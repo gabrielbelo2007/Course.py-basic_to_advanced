@@ -1,7 +1,7 @@
 """
-Funções: (def) - return
+Funções: (def) — return
 
-OBS: Funções podem retornar 'tuple', que são listas que não podem ser alterada.
+OBS. Funções podem retornar 'tuple', listas que não podem ser alterada.
 """
 
 """
@@ -16,15 +16,14 @@ if variavel1:
     print(variavel1)
 else:
     print('A variavel não possui valor')
-
 """
 
 """
 def divisao(n1, n2):
     if n2 == 0:  # Evitar que ocorra o "erro de incapaz de dividir por 0"
-        return
+        return  # sem nenhum valor, vai retornar "none" / "false"
 
-    return n1 / n2  # Vai ser executado pois o "return" anterior esta dentro do "if"
+    return n1 / n2  
 
 divide = divisao(8, 2)
 
@@ -48,5 +47,3 @@ var = dumb()('O valor da função de F')
 if var == f:
     print('Ambos valores são idênticos')
 """
-
-
