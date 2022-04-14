@@ -1,8 +1,8 @@
 # Continuação
 
-secreto = 'perfume'
+secreto = 'gostosa'
 digitadas = []
-chances = 3
+chances = 5
 
 while True:
     if chances <= 0:
@@ -40,8 +40,6 @@ while True:
         elif tent_palavra == 'n':
             print(f'Você tem {chances} chance(s).')
             print()
-        else:
-            chances = 0
 
     if secreto_temporario == secreto:
         print(f'Que legal, você ganhou! A palavra era "{secreto_temporario}".')

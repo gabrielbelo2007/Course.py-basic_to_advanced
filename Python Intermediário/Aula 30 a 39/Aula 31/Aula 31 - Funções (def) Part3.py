@@ -39,6 +39,7 @@ func1(*lista1, *lista2, nome='Gabriel', sobrenome="Belo")
 # Melhor forma de se usar "kwargs", para não apresentar erros no código, quando não se tem
 # certeza sobre os argumentos do código
 
+
 def func2(**kwargs):
 
     idade = kwargs.get('idade')
