@@ -11,27 +11,39 @@ print(executar)
 """
 
 
-def func3(**kwargs):
-
-    nome = kwargs.get('nome')
-    if nome is not None:
-        print(f'Seu nome é {nome}')
+def func1(funcao, funcao1):
+    return funcao(), funcao1()
 
 
-def func4(**kwargs):
-
-    nome = kwargs.get('nome')
-
-    saudacao = kwargs.get('saudacao')
-    if saudacao is not None:
-        print(f'{saudacao} {nome}')
-
-func3(nome="gabriel")
-func4(nome='victor', saudacao='Olá')
+def func2(*args):
+    return 10, 20
 
 
-def master(funcao1):
-    return funcao1()
+def func3(*args):
+    return 10, 20, 30
 
-execute = master(func3)
-print(execute)
+
+executar = func1(func2, func3)
+print(executar)
+
+
+"""
+Professor:
+
+def mestre(funcao, *args, **kwargs):
+    return funcao(*args, **kwargs)
+
+
+def fala_oi(nome):
+    return f'Oi {nome}'
+
+
+def saudacao(nome, saudacao):
+    return f'{saudacao} {nome}'
+
+
+executando = mestre(fala_oi, 'Luiz')
+executando2 = mestre(saudacao, 'Luiz', saudacao='Bom dia!')
+print(executando)
+print(executando2)
+"""
