@@ -31,32 +31,32 @@ lista_de_listas_de_inteiros = [
 ]
 
 contador = 0
-repetidor = 1
 nova_lista = ""
 duplicatas = ""
 
-while repetidor > 0:
+while contador <= 12:
     lista1 = list(set(lista_de_listas_de_inteiros[contador]))
     lista2 = sorted(lista_de_listas_de_inteiros[contador], reverse=False)
 
     if lista1 == lista2:
-        print('-1')
+        print(lista_de_listas_de_inteiros[contador], '-1')
         contador += 1
 
     else:
         for v in lista_de_listas_de_inteiros[contador]:
-            if str(v) in nova_lista and str(v) not in duplicatas:
-                duplicatas += str(v)
+            v = str(v)
+            if v in nova_lista and v not in duplicatas:
+                duplicatas += v
             else:
-                nova_lista += str(v)
+                nova_lista += v
             qtd_duplicatas = len(set(duplicatas))
 
         else:
-            print(qtd_duplicatas)
+            print(lista_de_listas_de_inteiros[contador], qtd_duplicatas)
             contador += 1
         nova_lista = ""
         qnt_duplicatas = ""
         duplicatas = ""
 
     if contador >= 12:
-        repetidor -= 1
+        break
