@@ -17,3 +17,7 @@ print("Esse é meu \"texto\" (str)")
 
 print("Utilizando \n voce quebra o 'texto'(str)")
 print(r'Utilizando o "r" no inicio \n nada do texto é executado')
+
+# Escape
+print("Luiz \"Otávio\"")
+
