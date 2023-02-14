@@ -1,6 +1,6 @@
 """
-Variáveis:
-Iniciar com letras, pode conter números, separar _, letras minúsculas
+Variáveis: são usadas para salvar algo na memória do computador.
+Inicie variáveis com letras minúsculas, pode usar números e underline _.
 """
 
 nome = 'Gabriel'  # = é um operador de atribuição
