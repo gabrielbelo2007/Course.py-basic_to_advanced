@@ -1,12 +1,19 @@
 """
 Operadores Lógicos (Valores Bool)
-and, or, not
-in e not in
+# and (e) or (ou) not (não)
+# and - Todas as condições precisam ser
+# verdadeiras.
+# Se qualquer valor for considerado falso,
+# a expressão inteira será avaliada naquele valor
+# São considerados falsy (que vc já viu)
+# 0 0.0 '' False
+# Também existe o tipo None que é
+# usado para representar um não valor
 """
 
-# comparação_1 AND comparação_2 (caso as duas sejam verdadeiras) = True
+# comparação_1 AND comparação_2 (caso às duas sejam verdadeiras) = True
 # comparação_1 AND comparação_2 (se UMA for falsa) = False
-# comparação_1 OR comparação_2 (apenas uma precisa ser verdadeira) = True
+# comparação_3 OR comparação_4 (apenas uma precisa ser verdadeira) = True
 # NOT a > b (funciona como um inversor do resultado, ia ser true) = False
 
 a = 2

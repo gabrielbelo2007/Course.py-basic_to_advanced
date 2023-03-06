@@ -25,6 +25,7 @@ elif True:
     nome = input('Qual é o seu nome? ')
 
     print(f'O seu nome é {nome}')
+
 elif True:  # Não vai ser lido pois já tem um "elif true" antes
     print('Mais uma Verdadeira')
     print(22 + 22)
