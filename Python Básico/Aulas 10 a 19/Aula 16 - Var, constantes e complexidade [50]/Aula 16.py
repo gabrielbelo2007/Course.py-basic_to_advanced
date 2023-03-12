@@ -1,7 +1,7 @@
 """
-CONSTANTE = "Variáveis" que não vão mudar, são marcadas por letra maíscula
+CONSTANTE = "Variáveis" que não vão mudar, são marcadas por letra maiúscula
 Muitas condições no mesmo if (ruim)
-    <- Contagem de complexidade (ruim)
+… ⇽Contagem de complexidade (ruim)
 """
 velocidade = 61  # velocidade atual do carro
 local_carro = 102  # local em que o carro está na estrada
