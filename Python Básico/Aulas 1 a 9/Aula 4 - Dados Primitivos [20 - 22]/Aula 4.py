@@ -20,3 +20,15 @@ print('Gabriel', type('Gabriel'), bool('Gabriel'))
 print('10', type('10'), type(int('10')))
 print('Gabriel', float('10.9'))
 print('10' + str(10))
+
+
+# Coerção de tipos
+
+# type conversion, typecasting, coercion
+# é o ato de converter um tipo em outro
+#  tipos imutáveis e primitivos:
+# str, int, float, bool
+print(int('1'), type(int('1')))
+print(type(float('1') + 1))
+print(bool(' '))
+print(str(11) + 'b')
