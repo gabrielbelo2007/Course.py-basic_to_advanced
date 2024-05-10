@@ -24,6 +24,7 @@ print("Acabou!")
 
 # Whiles internos
 
+"""
 qtd_linhas = 5
 qtd_colunas = 5
 
@@ -38,3 +39,24 @@ while linha <= qtd_linhas:
     linha += 1    
 
 print("Acabou!")
+"""
+
+# While + Else (Executado quando o while se torna FALSE)
+
+string = "Valor qualquer"
+
+i = 0
+
+while i < len(string):
+    letra = string[i]
+    
+    if letra == " ":
+        break
+    
+    print(letra)
+    i += 1
+    
+else:
+    print("O else dentro do while foi executado")
+
+print("Fora do while")
