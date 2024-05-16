@@ -38,4 +38,6 @@ Só servem para numeros inteiros positivos
 
 .title() - A primeira letra de cada string maiscula
 
+round() - Arredonda valores decimais
+
 """
