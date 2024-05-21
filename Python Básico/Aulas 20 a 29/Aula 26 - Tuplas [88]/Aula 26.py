@@ -1,5 +1,8 @@
 """
 Tipo Tupla - Lista Imutavel
+
+Diferentemente da lista não é possível modificar valores na tuple
+De resto é basicamente o mesmo princípio, e também pode ser convertida em lista
 """
 
 nomes_lista = ["Maria", "Helena", 'Luiz']
