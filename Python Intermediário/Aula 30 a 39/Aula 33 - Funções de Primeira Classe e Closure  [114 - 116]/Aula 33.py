@@ -1,7 +1,7 @@
 
 """
 Higher Order Functions
-Funções de primeira classe
+Funções de primeira classe (Executar funções dentro de outras funções)
 """
 
 def saudacao(msg, nome):  # Função que será executada em outra função
